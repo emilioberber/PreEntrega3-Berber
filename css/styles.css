@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: "Source Serif Pro", serif;
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+
+.listaCotizacion{
+  color: white
+}
+
+h1{ /*Fonts style for titles*/
+    font-family: "Roboto Slab", serif;
+    font-size: 50px;
+}
+
+.card-title{
+  font-size: 35px;
+}
+
+p, span{
+  font-family: "Roboto Slab", serif;
+}
+
+/* CARDS index */
+#contenedorPaquetes{
+  text-align: -webkit-center;
+}
+
+.card{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background-color: #141414;
+  color: white;
+  box-shadow: 3px 3px 15px -3px rgba(66, 144, 247, 0.9);
+}
+
+.btn-primary{
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+}
+
+
+#formsPaquetes{
+  display: inline-block;
+
+}
+
+/* footer */
+footer {
+    background-color: black;
+    width: 100%;
+    grid-area: footer;
+  }
+  footer .imgs {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: 0 auto;
+    width: 400px;
+  }
+  footer .imgs a {
+    text-align: center;
+  }
+  footer .imgs a img {
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
+    transition-duration: 0.5s;
+  }
+  footer .imgs a img:hover {
+    opacity: 0.5;
+  }
+  footer small {
+    text-align: center;
+    width: calc(100% - 30px);
+    display: inline-block;
+    padding: 15px;
+  }
