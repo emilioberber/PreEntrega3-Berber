@@ -99,14 +99,14 @@ const cotizar = () =>{
             // se encarga de calcular el total del carrito
             const cotTotal = document.getElementById("total")
             agregarCot()
-            cotTotal.innerHTML = `Precio total: $${cotPorNumPersonas}`
+            cotTotal.innerHTML = `Precio total: $${cotPorNumPersonas} USD`
         }
         totalCarritoRender()
 
         const listaCotizacion = document.getElementById("listaCotizacion")
         listaCotizacion.innerHTML =""
         let elementoCot = document.createElement("p")
-        elementoCot.innerHTML= `Precio: ${continente}<br>Pasajeros: ${numPersonas} `
+        elementoCot.innerHTML= `Precio: $ ${continente} USD<br>Pasajeros: ${numPersonas} `
         listaCotizacion.appendChild(elementoCot)
 
         // 3) Implementación de JSON and Sotrage
